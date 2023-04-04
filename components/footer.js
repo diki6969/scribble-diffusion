@@ -24,9 +24,7 @@ export default function Footer({ events }) {
         Powered by{" "}
         <Link href="https://github.com/lllyasviel/ControlNet" target="_blank">
           ControlNet
-        </Link>{" "}
-        
-        .
+        </Link>{" "}.
       </div>
     </footer>
   );
