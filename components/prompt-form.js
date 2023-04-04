@@ -27,7 +27,7 @@ export default function PromptForm({
           name="prompt"
           value={prompt}
           onChange={(e) => setPrompt(e.target.value)}
-          placeholder="Jelaskan gambar yang ingin Anda buat..."
+          placeholder="Jelaskan deskripsi gambar..."
           className="block w-full flex-grow rounded-l-md"
         />
 
