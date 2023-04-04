@@ -18,7 +18,7 @@ export default function Predictions({ predictions, submissionCount }) {
 
   return (
     <section className="w-full my-10">
-      <h2 className="text-center text-3xl font-bold m-6">Results</h2>
+      <h2 className="text-center text-3xl font-bold m-6">Hasil</h2>
 
       {submissionCount > Object.keys(predictions).length && (
         <div className="pb-10 mx-auto w-full text-center">
@@ -96,14 +96,14 @@ export function Prediction({ prediction, showLinkToNewScribble = false }) {
       <div className="text-center py-2">
         <button className="lil-button" onClick={copyLink}>
           <CopyIcon className="icon" />
-          {linkCopied ? "Copied!" : "Copy link"}
+          {linkCopied ? "Disalin!" : "Salin Link"}
         </button>
 
         {showLinkToNewScribble && (
           <Link href="/">
             <button className="lil-button" onClick={copyLink}>
               <PlusCircleIcon className="icon" />
-              Create a new scribble
+              Buat scribble baru
             </button>
           </Link>
         )}
