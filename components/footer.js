@@ -22,8 +22,8 @@ export default function Footer({ events }) {
 
       <div className="text-center lil-text mt-8">
         Powered by{" "}
-        <Link href="https://github.com/lllyasviel/ControlNet" target="_blank">
-          ControlNet
+        <Link href="https://github.com/diki6969" target="_blank">
+          IkyyOFC
         </Link>.
       </div>
     </footer>
