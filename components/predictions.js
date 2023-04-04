@@ -19,7 +19,7 @@ export default function Predictions({ predictions, submissionCount }) {
   return (
     <section className="w-full my-10">
       <h2 className="text-center text-3xl font-bold m-6">Hasil</h2>
-      <p className="text-center text-3xl font-bold m-6">Tes</p>
+      <p className="text-center text-3xl font-bold">Tes</p>
       {submissionCount > Object.keys(predictions).length && (
         <div className="pb-10 mx-auto w-full text-center">
           <div className="pt-10" ref={scrollRef} />
