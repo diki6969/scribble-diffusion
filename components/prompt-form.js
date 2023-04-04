@@ -38,7 +38,7 @@ export default function PromptForm({
           type="submit"
           disabled={disabled}
         >
-          Go
+          Ubah
         </button>
       </div>
     </form>
